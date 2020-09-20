@@ -1,10 +1,5 @@
 # Panic Attack Helper
 
-## 코드리뷰 요청사항
-
-- 애니메이션 큐 이슈(setInterval()? RequestAnimationFrame()?)
-  속도조절 버튼 여러번 클릭시 애니메이션이 콜스택에 쌓여서 실행되지 않음! JQuery에서는 간단하게 stop()메서드로 이전 애니메이션 중지시키고 새 애니메이션 실행했었는데 javascript에 해당하는 메서드를 몰라서 찾아보고 있어요,, 도와주세요~
-
 ## Panic Attack Helper?
 
 : 심신안정이 필요할 때 Relax 💆‍♂️ 할 수 있도록 도와주는 웹앱
@@ -26,6 +21,6 @@
 - [How To Calm Down During A Panic Attack](https://www.youtube.com/watch?v=IAODG6KaNBc)
 - [Build A Meditation App With Javascript HTML & CSS!](https://www.youtube.com/watch?v=oMBXdZzYqEk)
 
-## Codepen
+## Have a look!
 
-https://codepen.io/iina/pen/yLOpxLY
+http://iina.dothome.co.kr/pah/
