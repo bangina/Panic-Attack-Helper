@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Panic Attack Helper</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <div class="app">
+        <audio constrols loop id="audio">
+            <source src="http://iina.dothome.co.kr/audio/forest_sound.mp3">
+        </audio>
+
+        <a href="index.html">
+            <p class="logo"></p>
+        </a>
+        <div class="sound-icon">
+            <img src="./svg/sound_on.svg" alt="play" id="sound-on">
+            <img src="./svg/sound_off.svg" alt="play" id="sound-off">
+        </div>
+        <div class="player-page">
+            <p class="heading" id="calmer-text">These feelings are temporary.</p>
+            <div class="svg-box">
+                <div>
+                    <img src="./svg/lamp.svg" alt="lamp image" id="lamp">
+                    <img src="./svg/lamp_bg.svg" alt="lamp background" id="circle">
+                </div>
+            </div>
+            <div class="buttons">
+                <span id="durationText">Breahthing duration : 7 sec</span>
+                <div class="player-box">
+                    <button class="speedButton">
+                        <img src="./svg/speedSvg.svg" class="speed-svg" id="slowerButton" alt="slower">
+                        Slower
+                    </button>
+                    <button class="speedButton">
+                        <img src="./svg/speedSvg.svg" class="speed-svg" id="fasterButton" alt="faster">
+                        Faster
+                    </button>
+                </div>
+                <a href="final.html"><button class="okayBtn">I'm okay now</button></a>
+            </div>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>
